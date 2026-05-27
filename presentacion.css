@@ -644,21 +644,18 @@ nav a.active{
 }
 
 .video-box{
+    width: 100%;
+    max-width: 700px;
+    overflow: hidden;
+    border-radius: 20px;
+}
 
-  height:350px;
-
-  border-radius:30px;
-
-  background:rgba(255,255,255,0.04);
-
-  display:flex;
-
-  justify-content:center;
-
-  align-items:center;
-
-  border:1px solid rgba(255,255,255,0.08);
-
+.video-box video{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
 }
 
 .video-box i{
