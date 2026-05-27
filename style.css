@@ -1047,3 +1047,9 @@ footer{
   }
 
 }
+
+.video-box video{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
